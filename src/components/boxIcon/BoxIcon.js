@@ -47,7 +47,7 @@ const BoxIcon = () => {
           backgroundImage: `url(${backgroundBoxes})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          //   height: "567px",
+         
         }}
       >
         <Box>
@@ -55,7 +55,7 @@ const BoxIcon = () => {
           <Box
             sx={{
               pt: "50px",
-              
+
               // pb : '40px',
               display: "flex",
               justifyContent: "center",
@@ -134,17 +134,18 @@ const BoxIcon = () => {
           </Stack>
           {/* End of card section here */}
 
-         <Stack direction='row' justifyContent='center'>
-          <Button variant="contained" sx={{
-            textTransform : 'capitalize',
-            background : '#86BE3F',
-            mb : '50px'
-          }}>
-          Collegati al sole
-          </Button>
+          <Stack direction="row" justifyContent="center">
+            <Button
+              variant="contained"
+              sx={{
+                textTransform: "capitalize",
+                background: "#86BE3F",
+                mb: "50px",
+              }}
+            >
+              Collegati al sole
+            </Button>
           </Stack>
-
-
         </Box>
       </Container>
     </Fragment>

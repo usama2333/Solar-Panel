@@ -33,3 +33,5 @@ export const iconText = {
     mr :'16px',
     textAlign : 'center'
 }
+
+
