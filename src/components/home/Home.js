@@ -1,7 +1,8 @@
 import { Box, Container, Typography } from "@mui/material";
 import React, { Fragment } from "react";
-// import homePhoto from "../../assests/images/rfFFHQS_ierpaCssBtGpe7zdHFWLzKEVCmc6ld_moPW85TCFIYo5Al397rZgJG6GaOOsUfYeIDlwEmkIijkNbOcAHdgiH717II4QSf8g+5LU+jTs3Q4NHuue61qkMHXSWe1q0YfmodBvSfcuYFRZzjKFDBdbP+bI19SDUXmCn1O4zMcCxIWZGjxVw2_Lfx8Cg+funZlLSOf4oFzrmoT6qy4 1.png";
+import homePhoto from '../../assests/images/rfFFHQS_ierpaCssBtGpe7zdHFWLzKEVCmc6ld_moPW85TCFIYo5Al397rZgJG6GaOOsUfYeIDlwEmkIijkNbOcAHdgiH717II4QSf8g+5LU+jTs3Q4NHuue61qkMHXSWe1q0YfmodBvSfcuYFRZzjKFDBdbP+bI19SDUXmCn1O4zMcCxIWZGjxVw2_Lfx8Cg+funZlLSOf4oFzrmoT6qy4 1.jpg'
 import { Translate } from "@mui/icons-material";
+import main from '../../assests/images/main.png'
 
 
 
@@ -26,7 +27,7 @@ const Home = () => {
         >
           <Box
             component="img"
-            // src={homePhoto}
+            src={main}
             sx={{
               width: "100%",
             }}

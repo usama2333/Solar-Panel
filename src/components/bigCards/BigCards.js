@@ -22,6 +22,14 @@ import arrow from "../../assests/images/arrow.png";
 import battery from "../../assests/images/battery.png";
 import family from "../../assests/images/family.png";
 import { lowerTextSx, textSx } from "./style";
+import box1 from '../../assests/images/box1.png';
+import box2 from '../../assests/images/box2.png';
+import box3 from '../../assests/images/box3.png';
+import box4 from '../../assests/images/box4.png';
+import cardIcon1 from '../../assests/images/cardIcon1.png';
+import cardIcon2 from '../../assests/images/cardIcon2.png';
+import cardIcon3 from '../../assests/images/cardIcon3.png';
+import cardIcon4 from '../../assests/images/cardIcon4.png';
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -476,7 +484,7 @@ const BigCards = () => {
                       // mb: "26px",
                     }}
                   >
-                  Scopri le caratteristiche tecniche
+                  Title here if they have othervise remove this
                   </Typography>
                   <ExpandMore
                     expand={expanded}

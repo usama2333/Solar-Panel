@@ -11,6 +11,11 @@ import { Card } from '@mui/material';
 import Cards from './components/card/Cards';
 import SmallCards from './components/smallCards/SmallCards';
 import BigCards from './components/bigCards/BigCards';
+import BoxIcon from './components/boxIcon/BoxIcon';
+import Questions from './components/questions/Questions';
+import Contact from './components/contact/Contact';
+import NewsLetter from './components/newsLetter/NewsLetter';
+import Footer from './components/footer/Footer';
 // import './App.css';
 
 function App() {
@@ -27,6 +32,12 @@ function App() {
       <Cards/>
       <SmallCards/>
       <BigCards/>
+      <BoxIcon/>
+      <Questions/>
+      <Contact/>
+      <NewsLetter/>
+      <Footer/>
+
     </Fragment>
   );
 }
